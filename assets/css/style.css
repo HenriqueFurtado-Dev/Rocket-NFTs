@@ -33,4 +33,88 @@ body {
 }
 
 /* Css main */
+.banner { 
+    background-image: url(/assets/images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .logo {
+    width: 250px;
+}
+
+.banner header nav ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+.banner header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.banner header nav ul li a:hover {
+    color: var(--color-logo);
+}
+
+.banner header .button {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.banner header .button:hover {
+    background-color: var(--color-logo);
+    color: white;
+}
+
+/* Banner content */
+
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.banner-content .content {
+    color: white;
+    font-size: 18px;
+}
+
+.banner-content .content img {
+    margin-top: 60px;
+}
+
+
+.banner-content .title {
+    color: white;
+    font-size: 30px;
+    
+}
+
+.banner-content .title-color {
+    color: var(--color-logo);
+}
+
 
